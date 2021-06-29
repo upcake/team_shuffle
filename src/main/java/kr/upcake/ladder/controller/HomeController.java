@@ -9,7 +9,7 @@ public class HomeController {
 	
 	@GetMapping(value="/")
 	public String home(Model model) {
-		String[] teamList = {"AAA", "BBB", "CCC", "DDD", "EEE", "FFF", "GGG", "HHH", "III", "JJJ", "KKK", "LLL", "MMM", "NNN", "OOO", "PPP"};
+		String[] teamList = {"AAA", "BBB", "CCC", "DDD", "EEE", "FFF", "GGG", "HHH", "III", "JJJ", "KKK", "LLL", "MMM", "NNN", "OOO", "PPP", "QQQ", "RRR", "SSS", "TTT", "UUU", "VVV", "WWW", "XXX", "YYY", "ZZZ"};
 		
 		model.addAttribute("teamList", teamList);
 		
